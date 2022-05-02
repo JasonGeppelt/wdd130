@@ -1,0 +1,11 @@
+body {
+    background-color: purple;
+}
+h1 {
+    color: whitesmoke;
+    background-color: limegreen;
+    padding: .3em 1.5em;
+    font-size: 3em;
+    border: 3px solid orange;
+    margin: 50px 100px 10px 300px;
+}
