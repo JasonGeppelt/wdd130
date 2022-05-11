@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(253, 173, 200);
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    
+}
+
+h1{
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3em;
+   font-weight: bold;
+}
+h1:hover{
+    color: black;
+} 
+.education {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.president {
+    color: white;
+    font-weight: bold; 
+    font-size: 1.2em; 
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 200px;
+}
+
+section{
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 370px;
+}
+h2 {
+    color: white;
+    font-size: 2.7em;
+    font-weight: 200px; 
+    margin: 0 auto;
+    width: 400px;
+}
+#church {
+    margin-top: 0;
+}
