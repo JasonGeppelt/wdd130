@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    /* grid-template-rows: 350px 600px 600px; */
+}
+#success {
+    grid-column: 1/-1;
+    background-color: aqua;
+}
+#first {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: bisque;
+    gap: 15px;
+}
+#inclass {
+display: grid;
+grid-template-columns: 1fr 4fr 4fr 4fr;
+background-color: aquamarine;
+gap: 15px;
+}
