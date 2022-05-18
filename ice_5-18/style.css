@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(93, 93, 93);
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+    grid-template-rows: 5fr 4fr;
+}
+img {
+    width: 100%;
+}
+#last {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+#last img {
+    border-radius: 100%;
+    width: 350px;
+    border: solid 20px rgb(47, 47, 47);
+    margin: 70px auto;
+}
+#verylast img {
+    width: 100%;   
+    margin: 0 auto;
+}
+#verylast {
+    background-color: rgb(187, 187, 187);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h1 {
+    color: white;
+    size: 6em;
+}
