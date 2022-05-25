@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Righteous&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -49,6 +51,8 @@ footer{
 }
 .home-title {
     color: #606C38;
+    font-family: 'righteous';
+    font-size: 2em;
 }
 h4 {
     color: #606C38;
