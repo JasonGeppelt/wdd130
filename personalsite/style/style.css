@@ -11,11 +11,7 @@
     --heading-font: 'Antic Slab', serif;
     --paragraph-font: 'Fira Sans', sans-serif;
   
-    --headline-color-on-white: white; 
-    --headline-color-on-color: white;  
-    --paragraph-color-on-white: #1B1B1E;  
-    --paragraph-color-on-color: white;  
-    --paragraph-background-color: #6D676E  ;
+ 
     --nav-link-color: #FAA916;
     --nav-background-color: #96031A;
     --nav-hover-link-color: #96031A;
@@ -28,6 +24,7 @@ nav a {
     color: #1B1B1E;
     text-decoration: none;
     padding: 35px;
+    font-size: large;
 }
 body {
     max-width: 1800px;
@@ -136,11 +133,44 @@ footer{
 }
 
 
-
-
-
-
-
+.events-grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #fcefd6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.events-image1{
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.events-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin: 20px auto;
+    background-color: #fcefd6;
+    box-shadow: 5px 5px 10px #6f7364;
+    gap: 30px;
+    padding-top: 25\px;
+}
+.event-item1{
+    grid-column: 1/3; 
+}
+.event-paragraph{
+    grid-column: 1/3;
+    margin: 20px 100px;
+}
+i {
+    display: block;
+    margin: 0 auto;
+}
 
 
 
@@ -148,7 +178,7 @@ footer{
 
 
 form {
-    margin: 0 auto;
+    margin: 100px auto;
     width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
