@@ -38,28 +38,34 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
 img {
   display: block;
   margin: 0 auto;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+
 h2 {
   text-align: center;
 }
+
 hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
+
 header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
@@ -69,6 +75,7 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+
 .colors {
   width: 100%;
   min-width: 350px;
