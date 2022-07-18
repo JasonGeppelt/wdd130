@@ -176,9 +176,60 @@ i {
 
 
 
+.rules-grid{
+    display: grid;
+    grid-template-columns: 183.33px 183.33px 183.33px 183.33px 183.33px 183.33px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 600px;
+    text-align: left;
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #fcefd6;
+    box-shadow: 5px 5px 10px #6f7364;
+    gap: 20px;
+    padding: 20px 0;
+}
+.rules-title{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    font-size: xx-large;
+}
+.rules-image1{
+    grid-column: 2/4;
+    grid-row: 2/5;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rules-image2{
+    grid-column: 3/5;
+    grid-row: 4/7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    height: 340px;
+}
+.rules-heading{
+    grid-column: 4/6;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.rules-list{
+    grid-column: 2/6;
+    grid-row: 7/8;
+    justify-self: center;
+    align-self: center;
+    font-size: 23px;
+}
+
+
+
+
+
 
 form {
-    margin: 100px auto;
+    margin: 200px auto;
     width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
